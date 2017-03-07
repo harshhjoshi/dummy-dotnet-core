@@ -157,7 +157,10 @@ class App extends React.Component<AppProps, AppState>{
 						font: "100 20px 'Helvetica Neue', sans-serif",
 						zIndex: 2,
 						textShadow: "0px 0px 15px black"
-					}}>{this.state.result}</div>
+					}}>
+					{this.state.result}
+					<a href="https://github.com/Wufe/dummy-dotnet-core" target="_blank">Source Code</a>
+				</div>
 				<div
 					ref={f => this.markdownContainer = f}
 					onScroll={this.onMarkdownContainerScroll}
